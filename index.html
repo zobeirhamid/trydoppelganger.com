@@ -21,10 +21,11 @@
 
       body {
         min-height: 100vh;
+        min-height: 100svh;
         margin: 0;
         display: grid;
         place-items: center;
-        padding: 32px;
+        padding: clamp(24px, 7vw, 48px);
         background: var(--bg);
         color: var(--fg);
         font-family:
@@ -33,17 +34,20 @@
       }
 
       main {
+        width: min(100%, 1100px);
         text-align: center;
       }
 
       h1 {
         margin: 0;
         color: var(--fg);
-        font-size: clamp(2.8rem, 10vw, 9rem);
+        font-size: clamp(2rem, 8.5vw, 9rem);
         font-weight: 900;
         line-height: 1;
-        letter-spacing: 0.04em;
+        letter-spacing: clamp(0.01em, 0.45vw, 0.04em);
         text-transform: uppercase;
+        overflow-wrap: normal;
+        white-space: nowrap;
         background:
           linear-gradient(
             110deg,
@@ -64,11 +68,11 @@
       }
 
       p {
-        margin: 22px 0 0;
+        margin: clamp(16px, 4vw, 24px) 0 0;
         color: rgba(255, 255, 255, 0.72);
-        font-size: clamp(0.78rem, 1.6vw, 1rem);
+        font-size: clamp(0.7rem, 2.8vw, 1rem);
         font-weight: 600;
-        letter-spacing: 0.22em;
+        letter-spacing: clamp(0.14em, 1.6vw, 0.22em);
         text-transform: uppercase;
       }
 
@@ -86,6 +90,13 @@
       @media (prefers-reduced-motion: reduce) {
         h1 {
           animation: none;
+        }
+      }
+
+      @media (max-width: 520px) {
+        h1 {
+          font-size: clamp(1.55rem, 8.6vw, 3.25rem);
+          letter-spacing: 0;
         }
       }
     </style>

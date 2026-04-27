@@ -10,9 +10,9 @@
     >
     <style>
       :root {
-        color-scheme: light;
-        --bg: #ffffff;
-        --fg: #000000;
+        color-scheme: dark;
+        --bg: #000000;
+        --fg: #ffffff;
       }
 
       * {
@@ -38,16 +38,52 @@
 
       h1 {
         margin: 0;
-        font-size: clamp(3rem, 12vw, 9rem);
-        font-weight: 700;
+        color: var(--fg);
+        font-size: clamp(2.8rem, 10vw, 9rem);
+        font-weight: 900;
         line-height: 1;
-        letter-spacing: 0;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        background:
+          linear-gradient(
+            110deg,
+            #ffffff 0%,
+            #a6a6a6 18%,
+            #ffffff 34%,
+            #d9d9d9 52%,
+            #ffffff 68%,
+            #7c7c7c 84%,
+            #ffffff 100%
+          );
+        background-size: 220% 100%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.24));
+        animation: shine 5s ease-in-out infinite;
+      }
+
+      @keyframes shine {
+        0%,
+        100% {
+          background-position: 0% 50%;
+        }
+
+        50% {
+          background-position: 100% 50%;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        h1 {
+          animation: none;
+        }
       }
     </style>
   </head>
   <body>
     <main aria-label="Doppelganger">
-      <h1>doppelganger</h1>
+      <h1>DOPPELGANGER</h1>
     </main>
   </body>
 </html>

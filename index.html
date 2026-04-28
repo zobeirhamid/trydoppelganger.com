@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Doppelganger</title>
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
     <meta
       name="description"
       content="Doppelganger."
@@ -36,6 +37,12 @@
       main {
         width: min(100%, 1100px);
         text-align: center;
+      }
+
+      .logo {
+        width: clamp(42px, 8vw, 68px);
+        height: auto;
+        margin-bottom: clamp(22px, 5vw, 34px);
       }
 
       h1 {
@@ -103,6 +110,7 @@
   </head>
   <body>
     <main aria-label="Doppelganger">
+      <img class="logo" src="logo.svg" alt="">
       <h1>DOPPELGANGER</h1>
       <p>Coming soon</p>
     </main>

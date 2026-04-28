@@ -1,63 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title>Doppelganger logo</title>
-  <rect width="64" height="64" rx="10" fill="#000"/>
-  <rect x="4" y="4" width="56" height="56" rx="7" fill="none" stroke="#fff" stroke-width="2"/>
   <path
-    fill="#fff"
-    d="M13 51V13h23c8.2 0 14.2 6.2 14.2 14.4 0 4.6-2.1 8.1-5.9 10.6l4.8 4.7-5.4 8.3H13Z"
+    fill="#8a8a8a"
+    d="M28.5 6.5C14.6 6.5 4.8 17.7 4.8 32s9.8 25.5 23.7 25.5h13C30.5 52.1 22.8 42.4 22.8 32S30.5 11.9 41.5 6.5h-13Z"
   />
   <path
-    fill="none"
-    stroke="#000"
-    stroke-linecap="round"
-    stroke-width="3.4"
-    d="M26 20h8"
+    fill="#f5f5f5"
+    d="M34 6.5C20.5 6.5 12 17.7 12 32s8.5 25.5 22 25.5h13V41h9.5v-8.8C56.5 17.8 47.6 6.5 34 6.5Z"
   />
-  <circle cx="30" cy="25" r="3.8" fill="#000"/>
+  <circle cx="39.5" cy="29.5" r="3.9" fill="#000"/>
   <path
     fill="none"
     stroke="#000"
     stroke-linecap="round"
     stroke-linejoin="round"
-    stroke-width="3.6"
-    d="M39 29l-5.4 7H40"
+    stroke-width="4"
+    d="M48 34.5h-8l5.4-6.8"
   />
   <path
     fill="none"
     stroke="#000"
     stroke-linecap="round"
-    stroke-width="3.6"
-    d="M27 43h13"
-  />
-  <circle cx="48" cy="25" r="3.8" fill="#fff"/>
-  <path
-    fill="none"
-    stroke="#fff"
-    stroke-linecap="round"
-    stroke-width="3.4"
-    d="M44 20h8"
-  />
-  <path
-    fill="none"
-    stroke="#fff"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="3.8"
-    d="M48 17c5.2 3.6 8 8.7 8 15.2 0 6.8-3.1 12.2-9.2 16.1"
-  />
-  <path
-    fill="none"
-    stroke="#fff"
-    stroke-linecap="round"
-    stroke-linejoin="round"
-    stroke-width="3.8"
-    d="M50 33l-5 4h7"
-  />
-  <path
-    fill="none"
-    stroke="#fff"
-    stroke-linecap="round"
-    stroke-width="3.8"
-    d="M45 43h9"
+    stroke-width="4"
+    d="M35 45.5h12"
   />
 </svg>

@@ -4,31 +4,60 @@
   <rect x="4" y="4" width="56" height="56" rx="7" fill="none" stroke="#fff" stroke-width="2"/>
   <path
     fill="#fff"
-    d="M13 51V13h19c10.6 0 18 7.8 18 18.3 0 7.4-3.7 13.3-9.8 16.2L44 51H13Z"
+    d="M13 51V13h23c8.2 0 14.2 6.2 14.2 14.4 0 4.6-2.1 8.1-5.9 10.6l4.8 4.7-5.4 8.3H13Z"
   />
-  <circle cx="31" cy="25" r="3.8" fill="#000"/>
+  <path
+    fill="none"
+    stroke="#000"
+    stroke-linecap="round"
+    stroke-width="3.4"
+    d="M26 20h8"
+  />
+  <circle cx="30" cy="25" r="3.8" fill="#000"/>
   <path
     fill="none"
     stroke="#000"
     stroke-linecap="round"
     stroke-linejoin="round"
-    stroke-width="4"
-    d="M39 28l-6 8h7"
+    stroke-width="3.6"
+    d="M39 29l-5.4 7H40"
   />
-  <circle cx="47" cy="25" r="3.8" fill="#fff"/>
+  <path
+    fill="none"
+    stroke="#000"
+    stroke-linecap="round"
+    stroke-width="3.6"
+    d="M27 43h13"
+  />
+  <circle cx="48" cy="25" r="3.8" fill="#fff"/>
+  <path
+    fill="none"
+    stroke="#fff"
+    stroke-linecap="round"
+    stroke-width="3.4"
+    d="M44 20h8"
+  />
   <path
     fill="none"
     stroke="#fff"
     stroke-linecap="round"
     stroke-linejoin="round"
-    stroke-width="4"
-    d="M48 16c5 3.5 8 8.8 8 15.7 0 7.2-3.3 12.7-9.8 16.6"
+    stroke-width="3.8"
+    d="M48 17c5.2 3.6 8 8.7 8 15.2 0 6.8-3.1 12.2-9.2 16.1"
   />
   <path
     fill="none"
-    stroke="#000"
+    stroke="#fff"
     stroke-linecap="round"
-    stroke-width="4"
-    d="M28 43c4 2.7 9.1 2.6 12.8-.2"
+    stroke-linejoin="round"
+    stroke-width="3.8"
+    d="M50 33l-5 4h7"
+  />
+  <path
+    fill="none"
+    stroke="#fff"
+    stroke-linecap="round"
+    stroke-width="3.8"
+    d="M45 43h9"
   />
 </svg>

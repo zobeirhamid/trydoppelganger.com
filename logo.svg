@@ -4,30 +4,31 @@
   <rect x="4" y="4" width="56" height="56" rx="7" fill="none" stroke="#fff" stroke-width="2"/>
   <path
     fill="#fff"
-    d="M13 50V14h17c7.2 0 12 5.4 12 12.4 0 4.3-1.8 7.5-5 9.6l7 14H13Z"
+    d="M13 51V13h19c10.6 0 18 7.8 18 18.3 0 7.4-3.7 13.3-9.8 16.2L44 51H13Z"
   />
-  <circle cx="27" cy="26" r="3.6" fill="#000"/>
+  <circle cx="31" cy="25" r="3.8" fill="#000"/>
   <path
     fill="none"
     stroke="#000"
     stroke-linecap="round"
+    stroke-linejoin="round"
     stroke-width="4"
-    d="M32 35h-9"
+    d="M39 28l-6 8h7"
   />
-  <circle cx="45" cy="26" r="3.6" fill="#fff"/>
+  <circle cx="47" cy="25" r="3.8" fill="#fff"/>
   <path
     fill="none"
     stroke="#fff"
     stroke-linecap="round"
     stroke-linejoin="round"
     stroke-width="4"
-    d="M45 18c6 3.1 8 7.6 8 14 0 7.2-4.6 13.5-12 18"
+    d="M48 16c5 3.5 8 8.8 8 15.7 0 7.2-3.3 12.7-9.8 16.6"
   />
   <path
     fill="none"
-    stroke="#fff"
+    stroke="#000"
     stroke-linecap="round"
     stroke-width="4"
-    d="M42 35h8"
+    d="M28 43c4 2.7 9.1 2.6 12.8-.2"
   />
 </svg>
